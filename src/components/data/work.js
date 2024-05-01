@@ -1,10 +1,11 @@
 import alz from '../../assets/icons/alzlogo.png'
 import shell from '../../assets/icons/Logo-shell.png'
-import poke from '../../assets/icons/pokeball.png'
+import icon from '../../assets/icons/icon.png'
 import fp from '../../assets/icons/FP.png'
+import fifa from '../../assets/icons/fifa.png'
 export const WorkData = [
     {
-        company: "AlzTrack-Projet de Fin d'Année" ,
+        company: "AlzTrack" ,
         designation: "Mobiledéveloppeuse",
         
         companyLogo:alz,
@@ -25,10 +26,17 @@ export const WorkData = [
         work:"Application desktop qui permet d'afficher sur une carte le trajet le plus court entre toutes les stations-service d'une marque donnée."
     },
     {
-        company: "React Native Projet" ,
+        company: "Carbon Insight" ,
         designation: "W",
         
+        companyLogo:icon,
+        work:"Application web intègre des techniques avancées de modélisation prédictive pour surveiller et anticiper les émissions mondiales de CO2. En utilisant les algorithmes ARIMA, PROPHET et Holt-Winters, cette plateforme offre des analyses précises et des prévisions fiables. En combinant Flask pour le backend et Angular pour le frontend, cette application vise à fournir une perspective claire sur les tendances des émissions de CO2, dans le but de promouvoir un avenir plus durable."
+    },
+    {
+        company: "Projet BI" ,
+        designation: "fifa",
+        
         companyLogo:poke,
-        work:"Application mobile de Pokédex utilisant l'API de pokemon."
+        work:"Ce projet de Business Intelligence se concentre sur l'analyse exhaustive de toutes les Coupes du Monde de football, en utilisant plusieurs outils et technologies pour collecter, traiter et visualiser les données. Nous avons travaillé avec Jasper Server, QlikView, CloverETL et Oracle pour différentes phases du projet."
     }
 ]
