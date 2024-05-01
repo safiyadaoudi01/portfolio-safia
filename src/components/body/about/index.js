@@ -7,7 +7,7 @@ function About() {
         <div className="about-info">
           Enchanté,
          <br /> <span className="info-name">Safiya DAOUDI</span>.
-         <br /> Développeuse Web et Mobile
+         <br /> Elève ingénieure en informatique et technologies émergentes
         </div>
         <div className="about-photo">
           <img 
